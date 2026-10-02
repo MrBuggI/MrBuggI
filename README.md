@@ -1,4 +1,4 @@
-<h1 align="center">Привет, я MRBuggI/Карим 👋</h1>
+<h1 align="center">Привет, я MRBuggI/Карим/Бугги 👋</h1>
 <p align="center">
   Java-разработчик модов и плагинов для Minecraft · 3D и веб в команде <b>BuffTeam</b><br>
   Java developer of Minecraft mods and server plugins · 3D and web at <b>BuffTeam</b>
