@@ -37,6 +37,7 @@
 |---|---|---|
 | [**LagLens**](https://github.com/MrBuggI/LagLens) | Диагностика лагов сервера человеческим языком: где лагает и что с этим делать. Скан чанков размазан по тикам, история отчётов хранится в SQLite и пишется в фоновом потоке, хранилище покрыто тестами. | Paper 1.21 · Java 21 · SQLite · JUnit |
 | [**Magnetism**](https://github.com/MrBuggI/magnetism) | Магнитный блок с моделью диполя: полюса притягиваются и отталкиваются в полёте. 0 миксинов, 0 своих пакетов, кэш сущностей с backoff, серверный конфиг, ресурсы через датаген. | NeoForge 1.21.1 · Java 21 |
+| [**Graffity+ для NeoForge**](https://github.com/MrBuggI/graffity-neoforge) | Порт Graffity+ на NeoForge 1.21.1, переписанный на Kotlin: блоки, предметы, вкладка, датаген. В README таблица, что изменилось при переносе с Fabric. | NeoForge 1.21.1 · Kotlin |
 | [**Graffity+**](https://github.com/MrBuggI/graffity) | Система граффити: спреи для стен, пола и потолка, ластик, заряды. Рисунок держится на блоке-опоре и исчезает вместе с ним. | Fabric 1.20.1 |
 | [**Cockroach**](https://github.com/MrBuggI/CockMod) | Таракан, который живёт в окне инвентаря, убегает от курсора и ест алмазы. Один миксин-аксессор, удаление алмаза проверяет сервер. | Fabric 1.20.1 |
 | [**Football**](https://github.com/MrBuggI/football) | Футбольный мяч, который можно пинать. Порт soccermod на Fabric. | Fabric 1.20.1 |
@@ -67,6 +68,7 @@ Versions: Fabric and NeoForge from 1.20.1, Forge from 1.19.2, Paper 1.21. Remote
 |---|---|---|
 | [**LagLens**](https://github.com/MrBuggI/LagLens) | Explains server lag in plain language: where it lags and how to fix it. The chunk scan is spread across ticks, report history is stored in SQLite on a background thread, and the storage is covered by tests. | Paper 1.21 · Java 21 · SQLite · JUnit |
 | [**Magnetism**](https://github.com/MrBuggI/magnetism) | Magnet block with a dipole model: poles attract and repel mid-air. Zero mixins, zero custom packets, cached entity lookups with backoff, server config, datagen for all resources. | NeoForge 1.21.1 · Java 21 |
+| [**Graffity+ for NeoForge**](https://github.com/MrBuggI/graffity-neoforge) | Port of Graffity+ to NeoForge 1.21.1, rewritten in Kotlin: blocks, items, creative tab, datagen. The README lists what changed in the move from Fabric. | NeoForge 1.21.1 · Kotlin |
 | [**Graffity+**](https://github.com/MrBuggI/graffity) | Graffiti system: spray cans for walls, floors and ceilings, eraser, limited charges. Graffiti hangs on its support block and disappears with it. | Fabric 1.20.1 |
 | [**Cockroach**](https://github.com/MrBuggI/CockMod) | A cockroach that lives in the inventory screen, flees from the cursor and eats diamonds. One accessor mixin, the server validates the diamond removal. | Fabric 1.20.1 |
 | [**Football**](https://github.com/MrBuggI/football) | A kickable soccer ball. Port of soccermod to Fabric. | Fabric 1.20.1 |
@@ -77,6 +79,7 @@ Versions: Fabric and NeoForge from 1.20.1, Forge from 1.19.2, Paper 1.21. Remote
 ## 🛠 Стек / Tech stack
 
 ![Java](https://img.shields.io/badge/Java-E76F00?style=flat&logo=openjdk&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat&logo=kotlin&logoColor=white)
 ![Gradle](https://img.shields.io/badge/Gradle-02303A?style=flat&logo=gradle&logoColor=white)
 ![Fabric](https://img.shields.io/badge/Fabric-DBD0B4?style=flat)
 ![NeoForge](https://img.shields.io/badge/NeoForge-F08A2A?style=flat)
