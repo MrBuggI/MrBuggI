@@ -35,8 +35,8 @@
 
 | Проект | О чём | Стек |
 |---|---|---|
-| [**LagLens**](https://github.com/MrBuggI/LagLens) | Диагностика лагов сервера человеческим языком: где лагает и что с этим делать. Скан чанков размазан по тикам, чтобы сам инструмент не вызывал лаги. | Paper 1.21 · Java 21 |
-| [**Magnetism**](https://github.com/MrBuggI/magnetism) | Магнитный блок с моделью диполя: полюса притягиваются и отталкиваются в полёте. 0 миксинов, 0 своих пакетов, кэш сущностей с backoff. | NeoForge 1.21.1 · Java 21 |
+| [**LagLens**](https://github.com/MrBuggI/LagLens) | Диагностика лагов сервера человеческим языком: где лагает и что с этим делать. Скан чанков размазан по тикам, история отчётов хранится в SQLite и пишется в фоновом потоке, хранилище покрыто тестами. | Paper 1.21 · Java 21 · SQLite · JUnit |
+| [**Magnetism**](https://github.com/MrBuggI/magnetism) | Магнитный блок с моделью диполя: полюса притягиваются и отталкиваются в полёте. 0 миксинов, 0 своих пакетов, кэш сущностей с backoff, серверный конфиг, ресурсы через датаген. | NeoForge 1.21.1 · Java 21 |
 | [**Graffity+**](https://github.com/MrBuggI/graffity) | Система граффити: спреи для стен, пола и потолка, ластик, заряды. Рисунок держится на блоке-опоре и исчезает вместе с ним. | Fabric 1.20.1 |
 | [**Cockroach**](https://github.com/MrBuggI/CockMod) | Таракан, который живёт в окне инвентаря, убегает от курсора и ест алмазы. Один миксин-аксессор, удаление алмаза проверяет сервер. | Fabric 1.20.1 |
 | [**Football**](https://github.com/MrBuggI/football) | Футбольный мяч, который можно пинать. Порт soccermod на Fabric. | Fabric 1.20.1 |
@@ -65,8 +65,8 @@ Versions: Fabric and NeoForge from 1.20.1, Forge from 1.19.2, Paper 1.21. Remote
 
 | Project | What it does | Stack |
 |---|---|---|
-| [**LagLens**](https://github.com/MrBuggI/LagLens) | Explains server lag in plain language: where it lags and how to fix it. The chunk scan is spread across ticks so the tool never causes lag itself. | Paper 1.21 · Java 21 |
-| [**Magnetism**](https://github.com/MrBuggI/magnetism) | Magnet block with a dipole model: poles attract and repel mid-air. Zero mixins, zero custom packets, cached entity lookups with backoff. | NeoForge 1.21.1 · Java 21 |
+| [**LagLens**](https://github.com/MrBuggI/LagLens) | Explains server lag in plain language: where it lags and how to fix it. The chunk scan is spread across ticks, report history is stored in SQLite on a background thread, and the storage is covered by tests. | Paper 1.21 · Java 21 · SQLite · JUnit |
+| [**Magnetism**](https://github.com/MrBuggI/magnetism) | Magnet block with a dipole model: poles attract and repel mid-air. Zero mixins, zero custom packets, cached entity lookups with backoff, server config, datagen for all resources. | NeoForge 1.21.1 · Java 21 |
 | [**Graffity+**](https://github.com/MrBuggI/graffity) | Graffiti system: spray cans for walls, floors and ceilings, eraser, limited charges. Graffiti hangs on its support block and disappears with it. | Fabric 1.20.1 |
 | [**Cockroach**](https://github.com/MrBuggI/CockMod) | A cockroach that lives in the inventory screen, flees from the cursor and eats diamonds. One accessor mixin, the server validates the diamond removal. | Fabric 1.20.1 |
 | [**Football**](https://github.com/MrBuggI/football) | A kickable soccer ball. Port of soccermod to Fabric. | Fabric 1.20.1 |
@@ -81,6 +81,8 @@ Versions: Fabric and NeoForge from 1.20.1, Forge from 1.19.2, Paper 1.21. Remote
 ![Fabric](https://img.shields.io/badge/Fabric-DBD0B4?style=flat)
 ![NeoForge](https://img.shields.io/badge/NeoForge-F08A2A?style=flat)
 ![Paper](https://img.shields.io/badge/Paper-444444?style=flat)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
+![JUnit](https://img.shields.io/badge/JUnit-25A162?style=flat&logo=junit5&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
 ![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat&logo=threedotjs&logoColor=white)
